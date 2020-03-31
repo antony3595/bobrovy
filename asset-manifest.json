@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bobrovy/static/css/main.e111807e.chunk.css",
-    "main.js": "/bobrovy/static/js/main.2483ee02.chunk.js",
-    "main.js.map": "/bobrovy/static/js/main.2483ee02.chunk.js.map",
+    "main.js": "/bobrovy/static/js/main.1256850a.chunk.js",
+    "main.js.map": "/bobrovy/static/js/main.1256850a.chunk.js.map",
     "runtime-main.js": "/bobrovy/static/js/runtime-main.e27714d0.js",
     "runtime-main.js.map": "/bobrovy/static/js/runtime-main.e27714d0.js.map",
     "static/js/2.7695b9a3.chunk.js": "/bobrovy/static/js/2.7695b9a3.chunk.js",
     "static/js/2.7695b9a3.chunk.js.map": "/bobrovy/static/js/2.7695b9a3.chunk.js.map",
     "index.html": "/bobrovy/index.html",
-    "precache-manifest.08f4920d9bd2b3e012d8dde4753ff627.js": "/bobrovy/precache-manifest.08f4920d9bd2b3e012d8dde4753ff627.js",
+    "precache-manifest.dc3d96f6033ece6bb28313da517a0e37.js": "/bobrovy/precache-manifest.dc3d96f6033ece6bb28313da517a0e37.js",
     "service-worker.js": "/bobrovy/service-worker.js",
     "static/css/main.e111807e.chunk.css.map": "/bobrovy/static/css/main.e111807e.chunk.css.map",
     "static/js/2.7695b9a3.chunk.js.LICENSE.txt": "/bobrovy/static/js/2.7695b9a3.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.e27714d0.js",
     "static/js/2.7695b9a3.chunk.js",
     "static/css/main.e111807e.chunk.css",
-    "static/js/main.2483ee02.chunk.js"
+    "static/js/main.1256850a.chunk.js"
   ]
 }
