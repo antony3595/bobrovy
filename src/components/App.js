@@ -2,7 +2,11 @@ import React from "react";
 import PageRouter from "./PageRouter";
 
 function App() {
-	return <PageRouter />;
+	return (
+		<div className="page">
+			<PageRouter />
+		</div>
+	);
 }
 
 export default App;

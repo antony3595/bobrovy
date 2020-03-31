@@ -1,0 +1,11 @@
+.page {
+	position: relative;
+	user-select: none;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	background-color: rgba(255, 221, 169, 0.78);
+}

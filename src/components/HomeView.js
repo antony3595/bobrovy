@@ -1,15 +1,12 @@
 import React from "react";
-import logo from "../images/logo.svg";
+import GiveMeLove from "./hearts/GiveMeLove";
+import Album from "./album/Album";
 
 const HomeView = () => {
 	return (
-		<div>
-			<h1>Home View</h1>
-			<div className="App">
-				<header className="App-header">
-					<img src={logo} className="App-logo" alt="logo" />
-				</header>
-			</div>
+		<div className="home-view">
+			<Album />
+			<GiveMeLove />
 		</div>
 	);
 };

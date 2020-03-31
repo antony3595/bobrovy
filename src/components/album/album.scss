@@ -1,0 +1,57 @@
+@import "../../stylesheets/mixins";
+
+@font-face {
+	font-family: "romantic";
+	src: url("../../stylesheets/font.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+.album {
+	overflow: hidden;
+	&__text {
+		font-family: "romantic", sans-serif;
+		padding: 0 16px;
+		line-height: 120%;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 48px;
+		@include media(768px) {
+			font-size: 32px;
+		}
+		@include media(425px) {
+			font-size: 24px;
+		}
+	}
+}
+
+.photo-wrapper {
+	min-width: 50%;
+	text-align: center;
+}
+
+.photo {
+	position: relative;
+}
+
+.big {
+	width: 100%;
+	height: auto;
+	border: 5px solid #fff;
+	border-bottom: 40px solid #fff;
+	box-shadow: 0 10px 7px rgba(0, 0, 0, 0.4), 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo:before {
+	content: "";
+	height: 20px;
+	width: 80%;
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: -10px;
+	left: 10%;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+	font-family: "Just Another Hand", cursive;
+}

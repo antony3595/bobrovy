@@ -1,5 +1,6 @@
 {
 	"name": "cra_skeleton",
+	"homepage": "bobrovy",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -7,6 +8,7 @@
 		"@testing-library/react": "^9.5.0",
 		"@testing-library/user-event": "^7.2.1",
 		"axios": "^0.19.2",
+		"bootstrap": "^4.4.1",
 		"classnames": "^2.2.6",
 		"prop-types": "^15.7.2",
 		"query-string": "^6.11.1",
@@ -22,7 +24,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "jest",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -45,6 +49,7 @@
 		"eslint-config-prettier": "^6.10.1",
 		"eslint-plugin-prettier": "^3.1.2",
 		"eslint-plugin-react": "^7.19.0",
+		"gh-pages": "^2.2.0",
 		"jest": "^24.9.0",
 		"node-sass": "^4.13.1",
 		"prettier": "^2.0.2",
